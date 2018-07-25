@@ -10,4 +10,4 @@ Download the whole thing and put the STStamina folder into your addons folder.  
 I'm not gonna officially stick a license on it because I don't care that much, but you can modify it however you want, but please do not post reuploads on the workshop. I took a lot of time and sanity checking making this, and there's no reason to reupload it anyway. If you want a new feature or something, just let me know or make a pull or fork or something, I don't know how this works.
 
 ### Where's the workshop version?
-Coming very soon!
+Right here: https://steamcommunity.com/sharedfiles/filedetails/?id=1449037590
