@@ -47,7 +47,6 @@ hook.Add( "PlayerTick", "DoStaminaSystem", function( ply )
 		ply:SetJumpPower( ply.DEFAULTJUMP / 2 )
 		if !ply.soundisplaying then
 			ply:EmitSound( "low_stamina_breath" )
-			print( "playing" )
 			ply.soundisplaying = true
 		end
 	else
@@ -56,7 +55,6 @@ hook.Add( "PlayerTick", "DoStaminaSystem", function( ply )
 		ply:SetJumpPower( ply.DEFAULTJUMP )
 		if ply.soundisplaying then
 			ply:StopSound( "low_stamina_breath" )
-			print( "stopping" )
 			ply.soundisplaying = false
 			ply:EmitSound( "player/suit_sprint.wav" )
 		end
